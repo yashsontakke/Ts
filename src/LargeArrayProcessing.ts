@@ -66,5 +66,5 @@ async function getVirtusaCustomers(customers: CustomerData[]) {
     console.log("Average Age of Customers:", averageAge.toFixed(2));
   }
 
-processCustomerData(customersData);
+ processCustomerData(customersData);
   
