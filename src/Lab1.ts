@@ -1,9 +1,9 @@
 //1. How do you reverse a string?
-function reverseString(str:string):string{
+function revString(str:string):string{
     return str.split('').reverse().join('');
 }
 
-console.log(reverseString("sldnaslk")); // output klsandls
+console.log(revString("sldnaslk")); // output klsandls
 //2. How do you determine if a string is a palindrome
 function checkPalindrome(str:string):boolean{
     let i=0;

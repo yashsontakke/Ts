@@ -13,7 +13,7 @@
 // console.log(checkNumbersLastDigit(123,32135));
 
 
-// 3. Replace names of multiple object keys with the values provided
+// //3. Replace names of multiple object keys with the values provided
 // function replaceNames(obj:Record<string,any>, keyMapp:Record<string,any>):Record<string,any>{
 //     Object.keys(obj).forEach(key=>{
 //         console.log(key);
@@ -50,30 +50,30 @@
 
 // replaceKeys(obj1,keyMapp);
 
-//4. Get the first non-null/undefined argument
+// //4. Get the first non-null/undefined argument
 // function firstValid(...args:(null | undefined | any)[]):any{
 //    return  args.find((x)=>x!==null && x!==undefined);
 // }
 
 // console.log(firstValid(null,undefined,"asda","213213"));
 
-// Compare two objects to determine if the first contains equivalent property values to the second
+// // Compare two objects to determine if the first contains equivalent property values to the second
 
-function areEquals(o1:Record<any,number>, o2:Record<any,number>):boolean{
-    // return Object.keys(o2).every(key=> o2[key]===o1[key]);  
-   return  Object.keys(o2).every(key=> Object.keys(o1).includes(key)); 
-}
+// function areEquals(o1:Record<any,number>, o2:Record<any,number>):boolean{
+//     // return Object.keys(o2).every(key=> o2[key]===o1[key]);  
+//    return  Object.keys(o2).every(key=> Object.keys(o1).includes(key)); 
+// }
 
-let o1:Record<any,number> ={
-    az:4,
-    b:6
-}
-console.log(Object.keys(o1).forEach((k)=>console.log(k)));
+// let o1:Record<any,number> ={
+//     az:4,
+//     b:6
+// }
+// console.log(Object.keys(o1).forEach((k)=>console.log(k)));
 
-let o2 = {
-    az:4,
-    b:6
-}
+// let o2 = {
+//     az:4,
+//     b:6
+// }
 
-// console.log(areEquals(o1,o2));
+// // console.log(areEquals(o1,o2));
 
